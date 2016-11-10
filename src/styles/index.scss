@@ -1,0 +1,30 @@
+@charset "UTF-8";
+//sass的入口文件
+@import "./components/swiper/swiper-3.3.1.min";
+@import "./components/swiper/animate.min";
+@import "./swiper";
+@import "./slider";
+@import "./components/iscroll/iscroll";
+@import "./_footer";
+
+
+#myiscroll{
+    width:100%;
+    height:100%;
+}
+#sk_ul,#work_ul{
+	
+	width:100%;
+	height:140px;
+	border-bottom:2px solid yellow;
+	font-size:14px;
+	li{
+		width: 100%;
+		height: 36px;
+		padding-left:3%;
+		
+		
+		
+	}
+}
+ 

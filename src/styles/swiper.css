@@ -1,0 +1,110 @@
+    html{
+    	width:100%;
+    	height:100%;
+    }
+    body {
+       /* background: #eee;*/
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+        width:100%;
+        height:100%;
+    }
+    ul div{padding: 0;margin: 0;}
+    li{list-style: none;}
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+       
+       
+    }
+    
+  .swiper-container .swiper-wrapper .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        /*background: #fff;*/
+        width:100%;
+        height:100%;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+ #grjl{
+ 	font-size: 22px;
+ 	font-weight: bold;
+ 	margin-top:-20%;
+ 	
+ 	
+ }
+   
+#slid1_1{
+	width:50%;
+	height:35%;
+	border-radius:50%;
+	overflow: hidden;
+	background: url(../images/pg1.jpg) no-repeat;
+       background-size:100% 100%;
+     margin-top:20%;
+}
+#slid1_2{
+	margin-top:5%;
+	font-size:20px;
+	font-weight: bold;
+}
+#slid2_1{
+	width:40%;
+	height:30%;
+	border-radius:50%;
+	overflow: hidden;
+	background: url(../images/u=2631712155,316685910&fm=21&gp=0.jpg) no-repeat;
+       background-size:100% 100%;
+}
+#slid2 ul{
+	width:100%;
+	height:100%;
+	padding-left:10%;
+	padding-right:10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	
+	
+}
+#slid2 ul li{
+	width:100%;
+	background-color: #455b65;
+	height:50px;
+	color: white;
+	font-size:14px;
+	font-family: "arial narrow";
+}
+#slid2 ul li:nth-of-type(1){
+	height:78px;
+	background-color: #ef5451;
+}
+#slid2 ul li:nth-of-type(1) span{
+	width:100%;
+	
+}
+#slid2 ul li:nth-of-type(1) #sp1{
+	display: block;
+	font-size:30px;
+	/*font-weight: bold;*/
+	background-color: yellow;
+	line-height:50px;
+}

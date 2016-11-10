@@ -1,0 +1,9 @@
+{
+	"index.html": {
+		"resources": [
+			"css/index.css",
+			"images/pg1.jpg",
+			"js/index.js"
+		]
+	}
+}
